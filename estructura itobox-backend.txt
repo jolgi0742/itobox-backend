@@ -1,0 +1,105 @@
+C:\ITOBOX Courier\itobox-improved\itobox-backend>
+|    - copia.env
+|   .env
+|   .env.production
+|   database-schema-camca.sql
+|   database_schema.sql
+|   dockerfile
+|   estructura itobox-backend.txt
+|   estructura.txt
+|   package - copia.json
+|   package-lock.json
+|   package.json
+|   railway.json
+|   
++---controllers
+|       authController.js
+|       
++---docs
++---logs
++---middleware
++---migrations
++---models
+|       index.js
+|       User.js
+|       
++---node_modules
+|           
++---routes
++---scripts
+|       database-setup - copia.sql
+|       database-setup.sql
+|       post-install.js
+|       seed.js
+|       setup.js
+|       
++---seeders
+|       20240101000001-demo-users.js
+|       20240101000002-demo-clients.js
+|       20240101000003-demo-packages.js
+|       
++---seeds
++---src
+|   |   app.js
+|   |   Dockerfile
+|   |   server.js
+|   |   
+|   +---config
+|   |       database.js
+|   |       
+|   +---controllers
+|   |       authController - copia.js
+|   |       authController.js
+|   |       billingController.js
+|   |       clientController.js
+|   |       dashboardController.js
+|   |       notificationController.js
+|   |       packageController.js
+|   |       trackingController.js
+|   |       warehouseController - copia.js
+|   |       warehouseController.js
+|   |       
+|   +---jobs
+|   +---middleware
+|   |       auth.js
+|   |       authMiddleware.js
+|   |       authorize.js
+|   |       errorMiddleware.js
+|   |       
+|   +---models
+|   |       Client.js
+|   |       index - copia.js
+|   |       index.js
+|   |       Package.js
+|   |       user - copia.js
+|   |       user.js
+|   |       whr.js
+|   |       
+|   +---routes
+|   |       auth.js
+|   |       authRoutes.js
+|   |       billingRoutes.js
+|   |       clientPortalRoutes.js
+|   |       clientRoutes.js
+|   |       dashboardRoutes.js
+|   |       index.js
+|   |       notificationRoutes.js
+|   |       packageRoutes.js
+|   |       trackingRoutes.js
+|   |       warehouseRoutes - copia.js
+|   |       warehouseRoutes.js
+|   |       
+|   +---services
+|   +---utils
+|   +---webhooks
+|   \---websockets
++---test
+|   +---fixtures
+|   +---integration
+|   \---unit
+\---uploads
+    +---clients
+    +---documents
+    +---invoices
+    +---packages
+    \---signatures
